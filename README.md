@@ -6,18 +6,18 @@ As a new Java developer, you will be required to familiarize yourself with exist
     * Method names
     * Variables
 * Using Java terminology, break down every piece of the method **convertF2K**.
-    * What is the access modifier?
-    * Is it a class or object method, how do you know?
-    * What is its return type?
-    * What parameters does it require, and what are the parameter(s) datatype(s)?
-    * Describe for me how the body of the method executes (i.e. its flow of execution).
+    * What is the access modifier?:     :Public
+    * Is it a class or object method, how do you know?:     :Method, because it is not defined as a class
+    * What is its return type?:     :Double
+    * What parameters does it require, and what are the parameter(s) datatype(s)?:     :It requires a double parameter called fahrenheit
+    * Describe for me how the body of the method executes (i.e. its flow of execution).:     :It thakes the parameter, fahrenheit, uses the method convertF2C to convert it to celsius then uses convertC2K to turn it to Kelvin.
 * Using Java terminology, break down method **getUnitChoice**.
-    * What is the access modifier?
-    * Is it a class or object method, how do you know?
-    * What is its return type?
-    * What parameters does it require, and what are the parameter(s) datatype(s)?
-    * Describe for me how the body of the method executes (i.e. its flow of execution).
-    * How do the format specifiers differ than what you've seen before and what do they do?
+    * What is the access modifier?:     :public
+    * Is it a class or object method, how do you know?:     :Object, it is not defined as a class
+    * What is its return type?:     :String
+    * What parameters does it require, and what are the parameter(s) datatype(s)?:     :It requires no parameters.
+    * Describe for me how the body of the method executes (i.e. its flow of execution).:     :It prints the lines specified then returns a new input
+    * How do the format specifiers differ than what you've seen before and what do they do?:     :They pad the sides of the text and determine left or right alignment
 
 ## Part 2: - Implement Missing Method: convertK2F
 This Part is aimed at teaching you to use methods and code you have to add new functionality to existing code. In this case you will add the missing conversion method, but you don't need to know math :-)
